@@ -152,7 +152,7 @@ const TrackCard = ({
             )}
 
             {/* Get Similar Tracks */}
-            {showSimilar && onGetSimilar && (
+            {/* {showSimilar && onGetSimilar && (
               <button
                 onClick={handleGetSimilar}
                 className="w-10 h-10 rounded-full bg-white/10 hover:bg-purple-500/20 border border-white/20 hover:border-purple-500/50 text-white/70 hover:text-purple-400 transition-all duration-300 flex items-center justify-center group/btn"
@@ -160,7 +160,7 @@ const TrackCard = ({
               >
                 <Heart className="w-4 h-4 transition-transform duration-300 group-hover/btn:scale-110" />
               </button>
-            )}
+            )} */}
 
             {/* Open in Spotify */}
             {trackInfo.playUrls.spotify_web && (
