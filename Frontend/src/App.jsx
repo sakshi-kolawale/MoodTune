@@ -104,7 +104,7 @@ const MusicRecommendationApp = () => {
                   <div className="absolute -bottom-1 -left-1 w-2 h-2 bg-blue-400 rounded-full animate-bounce" style={{ animationDelay: '0.5s' }} />
                 </div>
                 <span className="bg-gradient-to-r from-purple-400 via-pink-400 to-blue-400 bg-clip-text text-transparent">
-                  Music Discovery
+                  MoodTune
                 </span>
               </h1>
             </div>
