@@ -1,0 +1,8 @@
+def predict_mood(text: str) -> str:
+    # Dummy ML model for now
+    if "happy" in text.lower():
+        return "happy"
+    elif "sad" in text.lower():
+        return "sad"
+    else:
+        return "energetic"
